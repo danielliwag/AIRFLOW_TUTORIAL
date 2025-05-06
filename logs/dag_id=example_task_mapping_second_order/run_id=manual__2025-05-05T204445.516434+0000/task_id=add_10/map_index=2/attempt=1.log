@@ -1,0 +1,11 @@
+{"timestamp":"2025-05-05T20:44:51.014700","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-05-05T20:44:51.015732","level":"info","event":"Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-05-05T20:44:51.136765Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-05T20:44:51.137604Z","level":"info","event":" Previous state of the Task instance: queued","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-05T20:44:51.138310Z","level":"info","event":"Current task name:add_10","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-05T20:44:51.138666Z","level":"info","event":"Dag name:example_task_mapping_second_order","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-05T20:44:51.138967Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-05T20:44:51.139256Z","level":"info","event":" Previous state of the Task instance: running","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-05T20:44:51.139531Z","level":"info","event":"Task operator:<Task(_PythonDecoratedOperator): add_10>","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-05T20:44:51.078088","level":"info","event":"Done. Returned value was: 16","logger":"airflow.task.operators.airflow.providers.standard.decorators.python._PythonDecoratedOperator"}
+{"timestamp":"2025-05-05T20:44:51.078331","level":"info","event":"Pushing xcom","ti":"RuntimeTaskInstance(id=UUID('0196a231-bbf7-7696-a68f-3591a1c5ac40'), task_id='add_10', dag_id='example_task_mapping_second_order', run_id='manual__2025-05-05T20:44:45.516434+00:00', try_number=1, map_index=2, hostname='f39def2c2716', context_carrier={}, task=<Task(_PythonDecoratedOperator): add_10>, bundle_instance=LocalDagBundle(name=example_dags), max_tries=0, start_date=datetime.datetime(2025, 5, 5, 20, 44, 50, 943483, tzinfo=TzInfo(UTC)), end_date=None, is_mapped=True)","logger":"task"}
